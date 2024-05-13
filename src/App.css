@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background-color: whitesmoke;
+  margin: 0%;
+  padding-top: 15px;
+}
+
+.content {
+  position: absolute;
+  top: 5%;
+  left:80px;
+  transform: translate(22%, 26%); 
+  width: 650px;
+  height: 400px; 
+}
+
+Sidebar Styles
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: white;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar .nav .selected {
+  font-size: 16px;
+  line-height: 40px;
+  text-align: left;
+  align-items: center;  
+}
+
+#viewport {
+  background-color: white;
+  position: relative;
+  width: 15%;
+  height: 750px;
+}
+
+.nav :hover {
+  background-color: blue; 
+  border: none;
+  color: white;
+  padding: -0px -0px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+#sidebar .nav a{
+  background: none;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  padding-left: 16px 24px;
+  display:0%;
+}
+
+#sidebar .nav{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+
+.TopNavigation {
+  position: absolute;
+  top: 1%;
+  left:15%;
+  transform: translate(13%, 10%); 
+  width: 15%;
+  height: 80px;
+}
+
+.Card {
+    position: absolute;
+    top: 30%;
+    right: 1%;
+    transform: translate(1%, 1%); 
+    width: -1px;
+    height: 80px;
+    object-fit: cover;
+    object-position: 100%;  
+  }
+
+.SalesReport {
+  position: absolute;
+  top: 16%;
+  left:-30px;
+  transform: translate(22%, 19%); 
+  width: 650px;
+  height: 400px;
+}
+
+.TopCountries {
+  position: absolute;
+  top: -15%;
+  right: 100px;
+  transform: translate(35%, 130%); 
+  width: 410px;
+  height: 304px;
+}
+
+.Recent {
+  position: absolute;
+  top:-1%;
+  right: 45%;
+  transform: translate(54%, 245%);  
+  width: 1026px;
+  height: 300px;
+  object-fit: cover;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
