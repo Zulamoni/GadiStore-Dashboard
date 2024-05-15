@@ -9,7 +9,16 @@ body {
   padding-top: 15px;
 }
 
-
+.nav :hover {
+  background-color: blue; 
+  border: none;
+  color: white;
+  padding: -0px -0px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
 
 .content {
   position: absolute;
@@ -113,8 +122,6 @@ Sidebar Styles
   width: 1026px;
   height: 300px;
   object-fit: cover;
-    
-
 }
 
 
